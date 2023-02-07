@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "juTrKDEdTRGpVUHGWokQuOD5+hOAAVQrTjFHFJUUjTk=",
+  "Hash": "hZvc/V8DoHtLvIUUOUhzc9JfoIF/jSM5DhRc3SU76do=",
   "Source": "SistemaLogistica.Web",
   "BasePath": "_content/SistemaLogistica.Web",
   "Mode": "Default",
@@ -117,23 +117,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\cepAPI.js"
-    },
-    {
-      "Identity": "C:\\SistemaLogistica\\SlnSistemaLogistica\\src\\SistemaLogistica.Web\\wwwroot\\js\\jquery.mask.min.js",
-      "SourceId": "SistemaLogistica.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\SistemaLogistica\\SlnSistemaLogistica\\src\\SistemaLogistica.Web\\wwwroot\\",
-      "BasePath": "_content/SistemaLogistica.Web",
-      "RelativePath": "js/jquery.mask.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\jquery.mask.min.js"
     },
     {
       "Identity": "C:\\SistemaLogistica\\SlnSistemaLogistica\\src\\SistemaLogistica.Web\\wwwroot\\js\\site.js",

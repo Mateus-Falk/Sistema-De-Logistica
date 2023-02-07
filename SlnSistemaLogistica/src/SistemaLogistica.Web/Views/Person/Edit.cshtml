@@ -18,36 +18,36 @@
             <div class="row">
                 <div class="form-group col-5">
                     <label asp-for="cep" class="control-label"></label>
-                    <input asp-for="cep" class="form-control" />
+                    <input id="cep" asp-for="cep" class="form-control" />
                     <span asp-validation-for="cep" class="text-danger"></span>
                 </div>
                 <div class="form-group col-5">
                     <label asp-for="country" class="control-label"></label>
-                    <input asp-for="country" class="form-control" />
+                    <input id="country" asp-for="country" class="form-control" />
                     <span asp-validation-for="country" class="text-danger"></span>
                 </div>
             </div>
             <div class="row">
                 <div class="form-group col-5">
                     <label asp-for="uf" class="control-label"></label>
-                    <input asp-for="uf" class="form-control" />
+                    <input id="uf" asp-for="uf" class="form-control" />
                     <span asp-validation-for="uf" class="text-danger"></span>
                 </div>
                 <div class="form-group col-5">
                     <label asp-for="city" class="control-label"></label>
-                    <input asp-for="city" class="form-control" />
+                    <input id="city" asp-for="city" class="form-control" />
                     <span asp-validation-for="city" class="text-danger"></span>
                 </div>
             </div>
             <div class="row">
                 <div class="form-group col-5">
                     <label asp-for="neighbourhood" class="control-label"></label>
-                    <input asp-for="neighbourhood" class="form-control" />
+                    <input id="neighbourhood" asp-for="neighbourhood" class="form-control" />
                     <span asp-validation-for="neighbourhood" class="text-danger"></span>
                 </div>
                 <div class="form-group col-5">
                     <label asp-for="street" class="control-label"></label>
-                    <input asp-for="street" class="form-control" />
+                    <input id="street" asp-for="street" class="form-control" />
                     <span asp-validation-for="street" class="text-danger"></span>
                 </div>
             </div>
@@ -68,6 +68,9 @@
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/js/cepAPI.js"></script>
 
 @section Scripts {
     @{
