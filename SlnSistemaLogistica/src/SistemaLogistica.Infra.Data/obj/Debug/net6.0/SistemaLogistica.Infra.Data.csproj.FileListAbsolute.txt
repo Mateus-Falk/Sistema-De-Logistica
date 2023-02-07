@@ -1,0 +1,17 @@
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Infra.Data\bin\Debug\net6.0\SistemaLogistica.Infra.Data.deps.json
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Infra.Data\bin\Debug\net6.0\SistemaLogistica.Infra.Data.runtimeconfig.json
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Infra.Data\bin\Debug\net6.0\SistemaLogistica.Infra.Data.dll
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Infra.Data\bin\Debug\net6.0\SistemaLogistica.Infra.Data.pdb
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Infra.Data\bin\Debug\net6.0\SistemaLogistica.Domain.dll
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Infra.Data\bin\Debug\net6.0\SistemaLogistica.Domain.pdb
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Infra.Data\obj\Debug\net6.0\SistemaLogistica.Infra.Data.csproj.AssemblyReference.cache
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Infra.Data\obj\Debug\net6.0\SistemaLogistica.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Infra.Data\obj\Debug\net6.0\SistemaLogistica.Infra.Data.AssemblyInfoInputs.cache
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Infra.Data\obj\Debug\net6.0\SistemaLogistica.Infra.Data.AssemblyInfo.cs
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Infra.Data\obj\Debug\net6.0\SistemaLogistica.Infra.Data.csproj.CoreCompileInputs.cache
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Infra.Data\obj\Debug\net6.0\SistemaLogistica.Infra.Data.csproj.CopyComplete
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Infra.Data\obj\Debug\net6.0\SistemaLogistica.Infra.Data.dll
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Infra.Data\obj\Debug\net6.0\refint\SistemaLogistica.Infra.Data.dll
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Infra.Data\obj\Debug\net6.0\SistemaLogistica.Infra.Data.pdb
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Infra.Data\obj\Debug\net6.0\SistemaLogistica.Infra.Data.genruntimeconfig.cache
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Infra.Data\obj\Debug\net6.0\ref\SistemaLogistica.Infra.Data.dll

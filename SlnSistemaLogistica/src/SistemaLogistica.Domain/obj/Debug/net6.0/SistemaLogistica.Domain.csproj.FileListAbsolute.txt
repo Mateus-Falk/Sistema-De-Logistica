@@ -1,0 +1,12 @@
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Domain\bin\Debug\net6.0\SistemaLogistica.Domain.deps.json
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Domain\bin\Debug\net6.0\SistemaLogistica.Domain.dll
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Domain\bin\Debug\net6.0\SistemaLogistica.Domain.pdb
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Domain\obj\Debug\net6.0\SistemaLogistica.Domain.csproj.AssemblyReference.cache
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Domain\obj\Debug\net6.0\SistemaLogistica.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Domain\obj\Debug\net6.0\SistemaLogistica.Domain.AssemblyInfoInputs.cache
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Domain\obj\Debug\net6.0\SistemaLogistica.Domain.AssemblyInfo.cs
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Domain\obj\Debug\net6.0\SistemaLogistica.Domain.csproj.CoreCompileInputs.cache
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Domain\obj\Debug\net6.0\SistemaLogistica.Domain.dll
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Domain\obj\Debug\net6.0\refint\SistemaLogistica.Domain.dll
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Domain\obj\Debug\net6.0\SistemaLogistica.Domain.pdb
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Domain\obj\Debug\net6.0\ref\SistemaLogistica.Domain.dll

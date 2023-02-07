@@ -1,0 +1,31 @@
+﻿@model SistemaLogistica.Web.Models.DTO.ImageFieldProduct
+<h1>Create</h1>
+
+<h4>Upload de Imagem do Produto</h4>
+<hr/>
+<div class="row">
+    <div class="col-md-4">
+        @using(Html.BeginForm("ImagePost",
+                              "Product",
+                              FormMethod.Post,
+                              new {enctype = "multipart/form-data"}))
+        {
+            <label for="file">Upload da Imagem:</label>
+            <input type="hidden" name="idProduct" asp-for="idProduct"/>
+            <input type="file" name="imageProduct" id="file" class="form-control"/>
+            <br>
+            <br>
+            <input type="submit" value="Enviar" class="btn btn-primary"/>
+        }
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

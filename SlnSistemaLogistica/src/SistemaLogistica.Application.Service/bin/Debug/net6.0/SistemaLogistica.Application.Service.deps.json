@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SistemaLogistica.Application.Service/1.0.0": {
+        "dependencies": {
+          "SistemaLogistica.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SistemaLogistica.Application.Service.dll": {}
+        }
+      },
+      "SistemaLogistica.Domain/1.0.0": {
+        "runtime": {
+          "SistemaLogistica.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SistemaLogistica.Application.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SistemaLogistica.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

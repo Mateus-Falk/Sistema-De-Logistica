@@ -1,0 +1,60 @@
+﻿@model SistemaLogistica.Domain.DTO.InOutDTO
+<h1>Create</h1>
+
+<h4>Entrada/Saída</h4>
+<hr />
+<div class="row">
+    <div>
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="row">
+                <div class="form-group col-5">
+                    <label asp-for="productId" class="control-label"></label>
+                    <select asp-for="productId" class="form-control" asp-items="ViewBag.productId"></select>
+                </div>
+                <div class="form-group col-5">
+                    <label asp-for="inOrOut" class="control-label"></label>
+                    <select onchange="hideSelect()" class="form-select" id="valueSelect" asp-for="inOrOut">
+                        <option selected disabled>Entrada/Saida</option>
+                        <option value="0">Entrada</option>
+                        <option value="1">Saída</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-5">
+                    <label asp-for="quantity" class="control-label"></label>
+                    <input asp-for="quantity" class="form-control" />
+                    <span asp-validation-for="quantity" class="text-danger"></span>
+                </div>
+                <div class="form-group col-5">
+                    <label asp-for="userName" class="control-label"></label>
+                    <input asp-for="userName" class="form-control" />
+                    <span asp-validation-for="userName" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-5" style="display: none;" id="clientSelect">
+                    <label asp-for="clientId" class="control-label"></label>
+                    <select asp-for="clientId" class="form-control" asp-items="ViewBag.clientId"></select>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+            <div class="form-group">
+                <input type="hidden" asp-for="time" value="@DateTime.Now" class="form-control" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

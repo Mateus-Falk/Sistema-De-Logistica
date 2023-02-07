@@ -1,0 +1,15 @@
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Application.Service\bin\Debug\net6.0\SistemaLogistica.Application.Service.deps.json
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Application.Service\bin\Debug\net6.0\SistemaLogistica.Application.Service.dll
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Application.Service\bin\Debug\net6.0\SistemaLogistica.Application.Service.pdb
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Application.Service\bin\Debug\net6.0\SistemaLogistica.Domain.dll
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Application.Service\bin\Debug\net6.0\SistemaLogistica.Domain.pdb
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Application.Service\obj\Debug\net6.0\SistemaLogistica.Application.Service.csproj.AssemblyReference.cache
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Application.Service\obj\Debug\net6.0\SistemaLogistica.Application.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Application.Service\obj\Debug\net6.0\SistemaLogistica.Application.Service.AssemblyInfoInputs.cache
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Application.Service\obj\Debug\net6.0\SistemaLogistica.Application.Service.AssemblyInfo.cs
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Application.Service\obj\Debug\net6.0\SistemaLogistica.Application.Service.csproj.CoreCompileInputs.cache
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Application.Service\obj\Debug\net6.0\SistemaLogistica.Application.Service.csproj.CopyComplete
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Application.Service\obj\Debug\net6.0\SistemaLogistica.Application.Service.dll
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Application.Service\obj\Debug\net6.0\refint\SistemaLogistica.Application.Service.dll
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Application.Service\obj\Debug\net6.0\SistemaLogistica.Application.Service.pdb
+C:\SistemaLogistica\SlnSistemaLogistica\src\SistemaLogistica.Application.Service\obj\Debug\net6.0\ref\SistemaLogistica.Application.Service.dll

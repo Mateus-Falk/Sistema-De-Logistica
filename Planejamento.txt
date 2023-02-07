@@ -1,0 +1,242 @@
+
+-criar solution OK
+    ~MVC OK
+	#WEB OK
+    ~class libraries OK
+	#Infra.Data OK
+	#Application.Service OK
+	#Domain OK
+
+- NuGet Packages OK
+	 
+- Dependency Injection OK
+
+-Criar Entities  OK
+    ~Person OK
+	#Id OK
+	#Name OK
+	#ClientFornecedor OK
+	#CEP OK
+	#Country OK
+	#UF OK
+	#City OK
+	#Neighbourhood OK
+	#Street	 OK
+	#Number OK
+  	#In Out Virtual OK
+	#Product Virtual OK 
+    
+    ~Client OK
+	#Id OK
+	#PersonId OK
+
+    ~Fornecedor OK
+	#Id OK
+	#PersonId OK
+
+    ~In/Out OK         
+	#Id OK
+	#In / Out OK
+		1  PRA ENTRADA 		
+		2 SAIDA
+	#Time OK
+	#UserName OK
+	#Quantity OK
+	#PersonId OK
+	
+    ~Product OK
+	#Id OK
+	#Name OK
+	#PersonId OK
+	#Quantity in Stock OK
+ 	#Minimum in Stock OK
+	#Image OK
+	#CategoryId OK	   
+
+    ~Category OK
+	#Id OK
+	#Name OK
+	   WITH SEED(  OK
+	    *Sucos OK
+	    *Refrigerentes    OK
+	    *Cervejas)     OK
+
+- Criar Migration  OK
+    ~ ContextDatabase OK
+    ~ StringConext Program CS OK
+
+-Criar DTOs OK
+      ~Person  OK
+	#id OK
+	#name OK
+	#clientFornecedor OK
+	#cep  OK
+	#country OK 
+	#uf OK
+	#city OK 
+	#neighbourhood OK 
+	#street	 OK
+	#number OK
+  	#in Out Virtual OK  
+	#product Virtual OK  
+	
+    ~Client OK
+	#id OK
+	#personId OK
+
+    ~Fornecedor OK
+	#id OK
+	#personId OK
+
+    ~Saída/Entrada OK
+	#id OK 
+	#in / Out OK
+	#time OK
+	#userName OK
+	#quantity OK
+	#personId OK
+	
+    ~Product OK
+	#id OK
+	#name OK
+	#fornecedor OK
+	#quantity in Stock OK
+	#minimum in Stock OK
+	#image OK
+	#categoryId OK
+
+    ~CategoryProduct OK
+	#id OK
+	#name OK
+  
+
+- Create Repositories OK
+    ~ Interfaces OK
+	#Base OK
+	#Person OK
+	#Client OK
+	#Fornecedor OK
+	#Product OK
+	#CategoryProduct OK
+	#Saída/Entrada OK
+
+    ~ Implements OK
+	#Base OK 
+	#Person OK
+	#Client OK
+	#Fornecedor OK
+	#Product OK
+	#CategoryProduct OK
+	#Saída/Entrada OK
+
+     ~ Independency Injection OK
+	#Person OK
+	#Product OK
+	#CategoryProduct OK
+	#Saída/Entrada OK
+
+- Create Services
+    ~ Interfaces OK
+	#Base OK
+	#Person OK
+	#Client OK
+	#Fornecedor OK
+	#Product OK
+	#CategoryProduct OK
+	#Saída/Entrada OK
+
+    ~ Implements OK
+	#Person OK
+	#Client OK
+	#Fornecedor OK
+	#Product OK
+	#CategoryProduct OK
+	#Saída/Entrada OK
+
+     ~ Independency Injection OK
+	#Person OK 
+	#Client OK
+	#Fornecedor OK
+	#Product OK
+	#CategoryProduct  OK
+	#Saída/Entrada OK
+
+- Criar Trigger  OK
+    ~ Insert In/Out - Product OK
+	#Update Quantity in Stock OK
+
+- Create Controllers
+
+    ~Person OK
+	#Select OK
+	#Insert OK
+	#Update OK
+	#Delete OK
+
+    ~Client OK
+	#Select OK
+	#Insert OK
+	#Update OK
+	#Delete OK
+
+    ~Fornecedor OK
+	#Select OK
+	#Insert OK
+	#Update OK
+	#Delete OK
+   
+    ~Saída/Entrada OK
+	#Select OK
+	#Insert OK
+	#Update OK
+	#Delete OK
+	
+    ~Product  OK
+	#Select OK
+	#Insert OK
+	#Update OK
+	#Delete OK
+	#Foto  OK
+
+    ~CategoryProduct OK
+	#Select OK
+	#Insert OK
+	#Update OK
+	#Delete OK
+
+- Create Views OK
+     ~Fornecedor OK
+	#Select OK
+	#Insert OK
+	#Update OK
+	
+    ~Client OK
+	#Select OK
+	#Insert OK
+	#Update OK
+
+    ~Person  OK
+	#Select OK
+	#Insert OK
+	#Update OK
+	
+
+    ~Saída/Entrada OK
+	#Select OK
+	#Insert OK
+	#Update OK
+
+    ~Product OK
+	#Select OK
+	#Insert OK
+	#Update OK
+
+    ~CategoryProduct OK
+	#Select OK 
+	#Insert OK
+	#Update OK
+
+- Create insert IMG OK
+	
+
+	
