@@ -1,0 +1,32 @@
+﻿@model IEnumerable<SistemaLogistica.Domain.DTO.CategoryDTO>
+<h1>Detalhes</h1>
+
+<h4>Categoria</h4>
+@foreach (var item in Model)
+{
+    <div>
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.id)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(modelItem => item.id)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.name)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(modelItem => item.name)
+            </dd>
+        </dl>
+    </div>
+    <div>
+        <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.id">Edit</a>
+        <a class="btn btn-danger" href="#" onclick="deleteRegistro(@item.id, '@item.name', 'Category')">Delete</a>
+    </div>
+}
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

@@ -1,0 +1,73 @@
+﻿@model IEnumerable<SistemaLogistica.Domain.DTO.PersonDTO>
+<h1>Detalhes</h1>
+
+<h4>Pessoa</h4>
+@foreach (var item in Model)
+{
+    <div>
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.id)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(modelItem => item.id)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.name)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(modelItem => item.name)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.cep)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(modelItem => item.cep)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.country)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(modelItem => item.country)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.uf)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(modelItem => item.uf)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.city)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(modelItem => item.city)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.neighbourhood)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(modelItem => item.neighbourhood)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.street)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(modelItem => item.street)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.number)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(modelItem => item.number)
+            </dd>
+        </dl>
+    </div>
+    <div>
+        <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.id">Edit</a>
+        <a class="btn btn-danger" href="#" onclick="deleteRegistro(@item.id, '@item.name', 'Person')">Delete</a>
+    </div>
+}
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -62,6 +62,7 @@
                         </figure>
                     </td>
                 <td>
+                    <a class="btn btn-secondary" asp-action="Details" asp-route-id="@item.id">Details</a>
                     <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.id">Edit</a>
                     <a class="btn btn-danger" href="#" onclick="deleteRegistro(@item.id, '@item.name', 'Product')">Delete</a>
                     <a class="btn btn-info" asp-action="ImagePost" asp-route-id="@item.id">&uarr; IMG</a>
@@ -94,6 +95,7 @@
                     </figure>
                 </td>
                 <td>
+                        <a class="btn btn-secondary" asp-action="Details" asp-route-id="@item.id">Details</a>
                     <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.id">Edit</a>
                     <a class="btn btn-danger" href="#" onclick="deleteRegistro(@item.id, '@item.name', 'Product')">Delete</a>
                     <a class="btn btn-info" asp-action="ImagePost" asp-route-id="@item.id">&uarr; IMG</a>

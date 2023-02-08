@@ -20,6 +20,12 @@ namespace SistemaLogistica.Web.Controllers
         {
             return View(_service.FindAll());
         }
+        
+        public async Task<IActionResult> Details(int id)
+        {
+            return View(_service.FindAll()
+                        .Where(c => c.id == id));
+        }
 
         public IActionResult Create()
         {

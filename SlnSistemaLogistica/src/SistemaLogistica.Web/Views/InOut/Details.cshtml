@@ -1,0 +1,64 @@
+﻿@model IEnumerable<SistemaLogistica.Domain.DTO.InOutDTO>
+<h1>Detalhes</h1>
+
+<h4>Entrada / Saída</h4>
+@foreach (var item in Model)
+{
+    <div>
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.id)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(modelItem => item.id)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.product.name)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(modelItem => item.product.name)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.inOrOut)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(modelItem => item.inOrOut)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.quantity)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(modelItem => item.quantity)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.time)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(modelItem => item.time)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.userName)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(modelItem => item.userName)
+            </dd>
+            @if(item.inOrOut == 1)
+            {        
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.client.person.name) Cliente
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(modelItem => item.client.person.name)
+                </dd>
+            }
+        </dl>
+    </div>
+    <div>
+        <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.id">Edit</a>
+        <a class="btn btn-danger" href="#" onclick="deleteRegistro(@item.id, '@item.product.name', 'InOut')">Delete</a>
+    </div>
+}
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

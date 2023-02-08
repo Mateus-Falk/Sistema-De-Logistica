@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets\\js\\cepAPI.js"
     },
     {
+      "Id": "C:\\SistemaLogistica\\SlnSistemaLogistica\\src\\SistemaLogistica.Web\\wwwroot\\js\\jquery.mask.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.mask.min.js"
+    },
+    {
       "Id": "C:\\SistemaLogistica\\SlnSistemaLogistica\\src\\SistemaLogistica.Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

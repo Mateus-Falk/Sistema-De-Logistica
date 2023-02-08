@@ -20,6 +20,13 @@ namespace SistemaLogistica.Web.Controllers
         {
             return View(_service.FindAll());
         }
+        
+        public async Task<IActionResult> Details(int id)
+        {
+            return View(_service.FindAll().
+                        Where(f => f.id == id));
+        }
+
         public IActionResult Create(int id)
         {
             ViewData["personId"] = new SelectList(_personService.FindAll(), "id", "name");
@@ -61,6 +68,7 @@ namespace SistemaLogistica.Web.Controllers
                 if (await _service.Save(fornecedor) > 0)
                     return RedirectToAction(nameof(Index));
             }
+            ViewData["personId"] = new SelectList(_personService.FindAll(), "id", "name");
             return View(fornecedor);
         }
 
