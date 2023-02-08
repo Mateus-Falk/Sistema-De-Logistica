@@ -56,7 +56,7 @@ namespace SistemaLogistica.Web.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Edit(int? id, [Bind("id, name")] FornecedorDTO fornecedor)
+        public async Task<IActionResult> Edit(int? id, [Bind("id, personId")] FornecedorDTO fornecedor)
         {
             if(!(id == fornecedor.id))
             {
