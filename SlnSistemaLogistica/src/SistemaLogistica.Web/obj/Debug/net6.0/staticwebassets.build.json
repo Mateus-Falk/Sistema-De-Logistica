@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "juTrKDEdTRGpVUHGWokQuOD5+hOAAVQrTjFHFJUUjTk=",
+  "Hash": "VvtzLaOzatDjBNv0rgRbkb1c+kGlsqb2CFqOZVUUtbg=",
   "Source": "SistemaLogistica.Web",
   "BasePath": "_content/SistemaLogistica.Web",
   "Mode": "Default",
@@ -102,6 +102,23 @@
       "OriginalItemSpec": "wwwroot\\img\\banner.jpeg"
     },
     {
+      "Identity": "C:\\SistemaLogistica\\SlnSistemaLogistica\\src\\SistemaLogistica.Web\\wwwroot\\img\\logo.png",
+      "SourceId": "SistemaLogistica.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SistemaLogistica\\SlnSistemaLogistica\\src\\SistemaLogistica.Web\\wwwroot\\",
+      "BasePath": "_content/SistemaLogistica.Web",
+      "RelativePath": "img/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\logo.png"
+    },
+    {
       "Identity": "C:\\SistemaLogistica\\SlnSistemaLogistica\\src\\SistemaLogistica.Web\\wwwroot\\js\\cepAPI.js",
       "SourceId": "SistemaLogistica.Web",
       "SourceType": "Discovered",
@@ -117,23 +134,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\cepAPI.js"
-    },
-    {
-      "Identity": "C:\\SistemaLogistica\\SlnSistemaLogistica\\src\\SistemaLogistica.Web\\wwwroot\\js\\jquery.mask.min.js",
-      "SourceId": "SistemaLogistica.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\SistemaLogistica\\SlnSistemaLogistica\\src\\SistemaLogistica.Web\\wwwroot\\",
-      "BasePath": "_content/SistemaLogistica.Web",
-      "RelativePath": "js/jquery.mask.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\jquery.mask.min.js"
     },
     {
       "Identity": "C:\\SistemaLogistica\\SlnSistemaLogistica\\src\\SistemaLogistica.Web\\wwwroot\\js\\site.js",
